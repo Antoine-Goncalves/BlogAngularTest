@@ -1,20 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppComponent } from './app.component';
-import { ArticleComponent } from './article/article.component';
-import { PostlistComponent } from './postlist/postlist.component';
+import { AppComponent } from "./app.component";
+import { PostlistComponent } from "./postlist/postlist.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ArticleComponent,
-    PostlistComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, PostlistComponent],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
